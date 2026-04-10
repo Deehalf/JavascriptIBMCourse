@@ -18,5 +18,11 @@ function increaseCount() {
   checkCountValue(); // Check count value and display messages
 }
 
+function resetCount() {
+    count = 0;
+    document.getElementById('countDisplay').innerHTML=count;
+    alert("The count has been reset to zero")
+}
+
 
 
